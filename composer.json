@@ -1,7 +1,7 @@
 {
-    "name": "Precify+",
+    "name": "Precify",
     "description": "Calculadora para precificação de bijuterias e banho de ouro ou prata",
-    "license": "enzoprado",
+    "license": "MIT",
     "type": "project",
     "homepage": "https://principal",
     "require": {
