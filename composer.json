@@ -1,9 +1,9 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
-    "license": "MIT",
+    "name": "Precify+",
+    "description": "Calculadora para precificação de bijuterias e banho de ouro ou prata",
+    "license": "enzoprado",
     "type": "project",
-    "homepage": "https://cakephp.org",
+    "homepage": "https://principal",
     "require": {
         "php": ">=8.1",
         "cakephp/cakephp": "5.1.*",
