@@ -1,53 +1,45 @@
-# CakePHP Application Skeleton
+# Precify+
 
-![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=5.x)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-[![PHPStan](https://img.shields.io/badge/PHPStan-level%208-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
+Uma calculadora para realizar a precificação e o calculo de banho de matéria prima em joias ou bijuterias
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 5.x.
+## 📝 Descrição
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+Um projeto feito para microempreendedoras de bijuterias que procuram uma forma de realizar a precificação e o calculo para o banho realizado em peças, vizando a otimização de tempo e facilitando o processo de precificação.
 
-## Installation
+## 🚀 Tecnologias Utilizadas
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+* [Liguagem Principal](https://www.php.net) 
+* [Framework](https://cakephp.org) 
+* [Banco de Dados] -> No momento não é utilizado nenhum banco de dados*
 
-If Composer is installed globally, run
+## 🛠️ Como Rodar o Projeto Localmente
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
+Siga os passos abaixo para configurar e executar o projeto em seu ambiente de desenvolvimento local.
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
+### Pré-requisitos
 
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
+Antes de começar, certifique-se de que você tem os seguintes softwares instalados em sua máquina:
 
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
+* **[PHP](https://www.php.net/downloads)** (>= 8.1)
+* **[Composer](https://getcomposer.org/download/)**
+* **[Git](https://git-scm.com/)**
 
-```bash
-bin/cake server -p 8765
-```
+### Passo a Passo
 
-Then visit `http://localhost:8765` to see the welcome page.
+1.  **Clone o repositório:**
+    ```
+    https://github.com/EnzoPrado88/Precify.git
+    ```
 
-## Update
+2.  **Instale as dependências do PHP:**
+    O Composer irá baixar e instalar todas as bibliotecas necessárias para o projeto, incluindo o próprio framework CakePHP.
+    ```
+    composer install
+    ```
 
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit the environment specific `config/app_local.php` and set up the
-`'Datasources'` and any other configuration relevant for your application.
-Other environment agnostic settings can be changed in `config/app.php`.
-
-## Layout
-
-The app skeleton uses [Milligram](https://milligram.io/) (v1.3) minimalist CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
+3.  **Inicie o Servidor Embutido:**
+    O CakePHP vem com um servidor de desenvolvimento que facilita a execução do projeto sem a necessidade de configurar um servidor web como Apache ou Nginx.
+    ```
+    bin/cake server
+    ```
+    Após executar o comando, o site estará rodando! Você pode acessá-lo no seu navegador através do endereço que aparecerá no terminal (geralmente **http://localhost:8765**).
